@@ -62,10 +62,14 @@ header {
    Navigation
 --------------------------------*/
 
+/* ------------------------------
+   Navigation
+--------------------------------*/
+
 #menu {
     background: none;
     border: none;
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -81,6 +85,8 @@ nav.open {
 
 nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -89,30 +95,34 @@ nav li {
 
 nav a {
     display: block;
-    text-decoration: none;
-    color: white;
     padding: 1rem;
-    transition: .3s;
-}
-
-nav a:hover {
-    background-color: rgba(255,255,255,.2);
+    text-decoration: none;
     color: #ffffff;
+    font-weight: 600;
+    transition: background-color .3s ease, color .3s ease;
 }
 
-/* Accessibility Fix */
+/* Hover */
+
+nav a:hover,
+nav a:focus {
+    background-color: #ffffff;
+    color: var(--primary);
+}
+
+/* Active page */
+
 nav a.active {
     background-color: #ffffff;
     color: var(--primary);
     font-weight: 700;
-    border-radius: 6px;
 }
 
-nav a.active:hover {
+nav a.active:hover,
+nav a.active:focus {
     background-color: #ffffff;
     color: var(--primary);
 }
-
 /* ------------------------------
    Main
 --------------------------------*/

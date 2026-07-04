@@ -21,48 +21,66 @@
 
     /* Horizontal navigation */
 
-    nav {
-        display: block;
-        width: auto;
-    }
+    /* ---------------- Header ---------------- */
 
-    nav ul {
-        display: flex;
-        gap: .5rem;
-    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
 
-    nav li {
-        border: none;
-    }
+/* Hide hamburger */
 
-    nav a {
-        display: block;
-        padding: .8rem 1.2rem;
-        border-radius: 6px;
-        text-decoration: none;
-        color: #ffffff;
-        transition: background-color .3s ease, color .3s ease;
-    }
+#menu {
+    display: none;
+}
 
-    /* Hover state */
+/* Navigation */
 
-    nav a:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        color: #ffffff;
-    }
+nav {
+    display: block;
+    width: auto;
+}
 
-    /* Active page (Accessibility Fix) */
+nav ul {
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-    nav a.active {
-        background-color: #ffffff;
-        color: #0f4c81;
-        font-weight: 700;
-    }
+nav li {
+    border: none;
+}
 
-    nav a.active:hover {
-        background-color: #ffffff;
-        color: #0f4c81;
-    }
+nav a {
+    display: block;
+    padding: .8rem 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 6px;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #ffffff;
+    color: var(--primary);
+}
+
+nav a.active {
+    background-color: #ffffff;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+nav a.active:hover,
+nav a.active:focus {
+    background-color: #ffffff;
+    color: var(--primary);
+}
 
     /* ---------------- Main ---------------- */
 
