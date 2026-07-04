@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>WDD231 | Home | Tamara McKnight</title>
 
-<meta name="description" content="WDD231 Course Home Page">
-<meta name="author" content="Tamara McKnight">
+<meta
+name="description"
+content="WDD231 Course Home Page for Tamara McKnight showcasing coursework and projects.">
+
+<meta
+name="author"
+content="Tamara McKnight">
+
+<!-- Google Font -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+rel="stylesheet">
+
+<!-- Normalize -->
 
 <link rel="stylesheet" href="styles/normalize.css">
+
+<!-- Custom CSS -->
+
 <link rel="stylesheet" href="styles/small.css">
+
 <link rel="stylesheet" href="styles/larger.css">
 
+<!-- JavaScript -->
+
 <script src="scripts/navigation.js" defer></script>
+
 <script src="scripts/date.js" defer></script>
+
 <script src="scripts/course.js" defer></script>
 
 </head>
@@ -28,23 +48,51 @@
 
 <header>
 
-<div class="logo">
+<div class="logo-box">
 
-<img src="images/logo.svg" alt="Site Logo">
+<img
+src="images/logo.svg"
+alt="Website logo">
 
-<span>Tamara McKnight</span>
+<span class="name">
+Tamara McKnight
+</span>
 
 </div>
 
-<button id="menuBtn">&#9776;</button>
+<button
+id="menu"
+aria-label="Open navigation menu">
 
-<nav id="navMenu">
+☰
 
-<a href="index.html" class="active">Home</a>
+</button>
 
-<a href="chamber/">Chamber</a>
+<nav id="navigation">
 
-<a href="final/">Final</a>
+<ul>
+
+<li>
+<a
+class="active"
+href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="chamber/index.html">
+Chamber
+</a>
+</li>
+
+<li>
+<a href="final/index.html">
+Final
+</a>
+</li>
+
+</ul>
 
 </nav>
 
@@ -54,45 +102,63 @@
 
 <h1>Home</h1>
 
-<div class="grid">
+<div class="home-grid">
 
-<section>
+<section class="card">
 
 <h2>About Me</h2>
 
 <p>
-Welcome to my WDD231 homepage where I showcase my web development projects
-and coursework.
+
+Hello! My name is Tamara McKnight.
+
+I am currently studying Software Development through BYU–Idaho.
+
+This website showcases my coursework and projects completed throughout WDD231.
+
+I enjoy web design, programming, learning new technologies, and creating clean, responsive websites.
+
 </p>
 
 </section>
 
-<section>
+<section class="card">
 
 <h2>Student Photo</h2>
 
-<img src="images/profile.webp"
-alt="Tamara McKnight">
+<img
+src="images/profile.webp"
+alt="Portrait of Tamara McKnight">
 
 </section>
 
-<section class="courses">
+<section class="card certificate">
 
-<h2>Web Certificate Courses</h2>
+<h2>Web & Computer Programming Certificate</h2>
 
-<div class="buttons">
+<div class="filter-buttons">
 
-<button id="all">All Courses</button>
+<button id="allCourses">
+All Courses
+</button>
 
-<button id="wdd">WDD Courses</button>
+<button id="wddCourses">
+WDD Courses
+</button>
 
-<button id="cse">CSE Courses</button>
+<button id="cseCourses">
+CSE Courses
+</button>
 
 </div>
 
-<div id="course-container"></div>
+<div id="courseContainer">
 
-<p id="credits"></p>
+<!-- JavaScript loads cards -->
+
+</div>
+
+<p id="creditTotal"></p>
 
 </section>
 
@@ -102,20 +168,55 @@ alt="Tamara McKnight">
 
 <footer>
 
-<div class="socials">
+<div class="social">
 
-<a href="https://github.com/yourusername" target="_blank">GitHub</a>
+<a
+href="https://github.com/tamaramck88"
+target="_blank"
+rel="noopener">
 
-<a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+<img
+src="images/github.svg"
+alt="GitHub">
 
-<a href="https://facebook.com/" target="_blank">Facebook</a>
+</a>
+
+<a
+href="https://linkedin.com/in/tamara-mcknight"
+target="_blank"
+rel="noopener">
+
+<img
+src="images/linkedin.svg"
+alt="LinkedIn">
+
+</a>
+
+<a
+href="https://facebook.com/"
+target="_blank"
+rel="noopener">
+
+<img
+src="images/facebook.svg"
+alt="Facebook">
+
+</a>
 
 </div>
 
 <p>
-&copy;
-<span id="year"></span>
-Tamara McKnight | South Africa
+
+©
+
+<span id="currentYear"></span>
+
+Tamara McKnight
+
+|
+
+South Africa
+
 </p>
 
 <p id="lastModified"></p>
@@ -123,4 +224,5 @@ Tamara McKnight | South Africa
 </footer>
 
 </body>
+
 </html>
