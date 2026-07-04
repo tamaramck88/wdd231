@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231 Tamara</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WDD231 | Home | Tamara McKnight</title>
+
+<meta name="description" content="WDD231 Course Home Page">
+<meta name="author" content="Tamara McKnight">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<script src="scripts/navigation.js" defer></script>
+<script src="scripts/date.js" defer></script>
+<script src="scripts/course.js" defer></script>
+
 </head>
+
 <body>
-    <h1>wdd231 Tamara</h1>
+
+<header>
+
+<div class="logo">
+
+<img src="images/logo.svg" alt="Site Logo">
+
+<span>Tamara McKnight</span>
+
+</div>
+
+<button id="menuBtn">&#9776;</button>
+
+<nav id="navMenu">
+
+<a href="index.html" class="active">Home</a>
+
+<a href="chamber/">Chamber</a>
+
+<a href="final/">Final</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<h1>Home</h1>
+
+<div class="grid">
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+Welcome to my WDD231 homepage where I showcase my web development projects
+and coursework.
+</p>
+
+</section>
+
+<section>
+
+<h2>Student Photo</h2>
+
+<img src="images/profile.webp"
+alt="Tamara McKnight">
+
+</section>
+
+<section class="courses">
+
+<h2>Web Certificate Courses</h2>
+
+<div class="buttons">
+
+<button id="all">All Courses</button>
+
+<button id="wdd">WDD Courses</button>
+
+<button id="cse">CSE Courses</button>
+
+</div>
+
+<div id="course-container"></div>
+
+<p id="credits"></p>
+
+</section>
+
+</div>
+
+</main>
+
+<footer>
+
+<div class="socials">
+
+<a href="https://github.com/yourusername" target="_blank">GitHub</a>
+
+<a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+
+<a href="https://facebook.com/" target="_blank">Facebook</a>
+
+</div>
+
+<p>
+&copy;
+<span id="year"></span>
+Tamara McKnight | South Africa
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
 </body>
 </html>
