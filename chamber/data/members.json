@@ -1,0 +1,65 @@
+[
+{
+"name":"ABC Construction",
+"address":"25 Oxford Road",
+"phone":"011-555-1111",
+"website":"https://www.abcconstruction.co.za",
+"image":"ABC.jpg",
+"membership":3,
+"description":"Commercial building specialists."
+},
+{
+"name":"Elite Fitness",
+"address":"17 Main Street",
+"phone":"011-555-2222",
+"website":"https://www.elitefitness.co.za",
+"image":"Elite.jpg",
+"membership":2,
+"description":"Health and wellness centre."
+},
+{
+"name":"Coffee Corner",
+"address":"44 Market Street",
+"phone":"011-555-3333",
+"website":"https://www.coffeecorner.co.za",
+"image":"Coffee.jpg",
+"membership":1,
+"description":"Fresh coffee and breakfast."
+},
+{
+"name":"City Motors",
+"address":"10 Empire Road",
+"phone":"011-555-4444",
+"website":"https://www.citymotors.co.za",
+"image":"City.jpg",
+"membership":3,
+"description":"Vehicle dealership."
+},
+{
+"name":"Green Gardens",
+"address":"90 Oak Avenue",
+"phone":"011-555-5555",
+"website":"https://www.greengardens.co.za",
+"image":"Green.jpg",
+"membership":2,
+"description":"Landscaping experts."
+},
+{
+"name":"Sunrise Bakery",
+"address":"11 Fox Street",
+"phone":"011-555-6666",
+"website":"https://www.sunrisebakery.co.za",
+"image":"Sunrise.jpg",
+"membership":1,
+"description":"Fresh bread and pastries."
+},
+{
+"name":"Tech Solutions",
+"address":"55 Innovation Park",
+"phone":"011-555-7777",
+"website":"https://www.techsolutions.co.za",
+"image":"Tech.jpg",
+"membership":3,
+"description":"IT consulting and support."
+}
+]
