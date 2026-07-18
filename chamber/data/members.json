@@ -1,65 +1,65 @@
 [
 {
 "name":"ABC Construction",
-"address":"12 Main Road, Johannesburg",
-"phone":"011-222-1111",
+"address":"25 Oxford Road",
+"phone":"011-555-1111",
 "website":"https://www.abcconstruction.co.za",
-"image":"business1.jpg",
+"image":"ABC.jpg",
 "membership":3,
-"description":"Commercial construction company."
-},
-{
-"name":"Sunrise Bakery",
-"address":"45 Market Street",
-"phone":"011-333-2222",
-"website":"https://www.sunrisebakery.co.za",
-"image":"business2.jpg",
-"membership":2,
-"description":"Fresh bread and pastries."
+"description":"Commercial building specialists."
 },
 {
 "name":"Elite Fitness",
-"address":"18 Park Avenue",
-"phone":"011-444-3333",
+"address":"17 Main Street",
+"phone":"011-555-2222",
 "website":"https://www.elitefitness.co.za",
-"image":"business3.jpg",
-"membership":1,
+"image":"Elite.jpg",
+"membership":2,
 "description":"Health and wellness centre."
 },
 {
-"name":"Green Gardens",
-"address":"55 Oak Street",
-"phone":"011-555-4444",
-"website":"https://www.greengardens.co.za",
-"image":"business4.jpg",
-"membership":2,
-"description":"Landscaping services."
-},
-{
-"name":"Tech Solutions",
-"address":"88 Innovation Road",
-"phone":"011-666-5555",
-"website":"https://www.techsolutions.co.za",
-"image":"business5.jpg",
-"membership":3,
-"description":"IT Support."
-},
-{
 "name":"Coffee Corner",
-"address":"7 First Avenue",
-"phone":"011-777-6666",
+"address":"44 Market Street",
+"phone":"011-555-3333",
 "website":"https://www.coffeecorner.co.za",
-"image":"business6.jpg",
+"image":"Coffee.jpg",
 "membership":1,
-"description":"Coffee Shop."
+"description":"Fresh coffee and breakfast."
 },
 {
 "name":"City Motors",
-"address":"102 Highway Road",
-"phone":"011-888-7777",
+"address":"10 Empire Road",
+"phone":"011-555-4444",
 "website":"https://www.citymotors.co.za",
-"image":"business7.jpg",
+"image":"City.jpg",
 "membership":3,
 "description":"Vehicle dealership."
+},
+{
+"name":"Green Gardens",
+"address":"90 Oak Avenue",
+"phone":"011-555-5555",
+"website":"https://www.greengardens.co.za",
+"image":"Green.jpg",
+"membership":2,
+"description":"Landscaping experts."
+},
+{
+"name":"Sunrise Bakery",
+"address":"11 Fox Street",
+"phone":"011-555-6666",
+"website":"https://www.sunrisebakery.co.za",
+"image":"Sunrise.jpg",
+"membership":1,
+"description":"Fresh bread and pastries."
+},
+{
+"name":"Tech Solutions",
+"address":"55 Innovation Park",
+"phone":"011-555-7777",
+"website":"https://www.techsolutions.co.za",
+"image":"Tech.jpg",
+"membership":3,
+"description":"IT consulting and support."
 }
 ]
