@@ -1,14 +1,13 @@
-/* normalize.css */
-
-html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-}
+/* Simple Normalize */
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -20,11 +19,9 @@ img {
     display: block;
 }
 
-button {
+button,
+input,
+textarea,
+select {
     font: inherit;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
 }
