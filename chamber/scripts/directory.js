@@ -46,7 +46,15 @@ function displayMembers(members) {
 
             <p>${member.description}</p>
 
-            <p><strong>Membership:</strong> ${member.membership}</p>
+            <p><strong>Membership:</strong>
+${
+    member.membership === 3
+        ? "Gold"
+        : member.membership === 2
+        ? "Silver"
+        : "Member"
+}
+</p>
         `;
 
         membersContainer.appendChild(card);

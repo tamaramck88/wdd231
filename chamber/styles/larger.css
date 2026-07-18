@@ -4,9 +4,10 @@
     display:none;
 }
 
-.navigation{
-    display:flex;
-    justify-content:center;
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .navigation li{
