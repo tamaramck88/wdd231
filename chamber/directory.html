@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Johannesburg Chamber of Commerce | Directory</title>
+
+    <meta name="description" content="Johannesburg Chamber of Commerce Business Directory">
+    <meta name="author" content="Tamara McKnight">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Johannesburg Chamber of Commerce">
+    <meta property="og:description" content="Explore local businesses in Johannesburg.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/ABC.jpg">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+
+<header>
+
+    <h1>Johannesburg Chamber of Commerce</h1>
+
+    <button id="menu">☰</button>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <h2>Business Directory</h2>
+
+    <div class="buttons">
+        <button id="grid">Grid View</button>
+        <button id="list">List View</button>
+    </div>
+
+    <section id="members" class="grid"></section>
+
+</main>
+
+<footer>
+
+    <p>
+        Johannesburg Chamber of Commerce<br>
+        100 Commissioner Street<br>
+        Johannesburg, South Africa<br>
+        info@jhbchamber.co.za<br>
+        011-555-1212
+    </p>
+
+    <p>
+        &copy; <span id="year"></span> Tamara McKnight | WDD 231
+    </p>
+
+    <p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>
