@@ -177,3 +177,46 @@ footer p{
 .list a:hover {
     text-decoration: underline;
 }
+.hero{
+position:relative;
+}
+
+.hero img{
+width:100%;
+display:block;
+}
+
+.hero-text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+}
+
+.cta{
+background:#0f4c81;
+padding:1rem 2rem;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.home-grid{
+display:grid;
+gap:1rem;
+padding:1rem;
+}
+
+#spotlight-container{
+display:grid;
+gap:1rem;
+}
+
+#spotlight-container section{
+padding:1rem;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+background:white;
+text-align:center;
+}

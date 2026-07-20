@@ -17,5 +17,24 @@
 .grid{
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 }
+}
+.home-grid{
 
+grid-template-columns:
+1fr 1fr 1fr;
+
+align-items:start;
+
+}
+
+.events{
+grid-column:1;
+}
+
+.weather{
+grid-column:2;
+}
+
+.spotlights{
+grid-column:3;
 }

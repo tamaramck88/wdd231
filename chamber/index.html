@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Johannesburg Chamber of Commerce | Home</title>
+
+<meta name="description"
+content="Official home page for the Johannesburg Chamber of Commerce.">
+
+<meta name="author"
+content="Tamara McKnight">
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/larger.css">
+
+<script src="js/navigation.js" defer></script>
+<script src="js/date.js" defer></script>
+<script src="js/weather.js" defer></script>
+<script src="js/spotlight.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/logo.webp" alt="Chamber Logo">
+
+<h1>Johannesburg Chamber of Commerce</h1>
+
+<button id="menu"></button>
+
+<nav class="navigation">
+
+<a href="index.html" class="active">Home</a>
+<a href="directory.html">Directory</a>
+<a href="join.html">Join</a>
+<a href="discover.html">Discover</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<img src="images/hero.webp"
+alt="Johannesburg skyline">
+
+<div class="hero-text">
+
+<h2>Growing Local Business Together</h2>
+
+<a class="cta" href="join.html">
+Join the Chamber
+</a>
+
+</div>
+
+</section>
+
+<section class="home-grid">
+
+<section class="events">
+
+<h2>Current Events</h2>
+
+<p>Business Networking Breakfast - Friday 8:00 AM</p>
+
+<p>Entrepreneur Workshop - Saturday</p>
+
+</section>
+
+<section class="weather">
+
+<h2>Weather</h2>
+
+<p>
+Temperature:
+<span id="current-temp"></span>°C
+</p>
+
+<p id="weather-desc"></p>
+
+<h3>3-Day Forecast</h3>
+
+<ul id="forecast"></ul>
+
+</section>
+
+<section class="spotlights">
+
+<h2>Business Spotlights</h2>
+
+<div id="spotlight-container"></div>
+
+</section>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+© <span id="currentyear"></span>
+Johannesburg Chamber of Commerce
+</p>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+
+</html>
